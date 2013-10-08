@@ -1,5 +1,7 @@
-Derivonsatan - A multi stream website for the Diablo 3 hardcore community
+Derivonsatan
 ============
+
+# A multi stream website for the Diablo 3 hardcore community
 
 ## Ideas/Goals
 
