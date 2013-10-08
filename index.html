@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+  <title>Deirvonsatan Multi-Stream</title>
+  <meta content="" name="description">
+  <meta content="width=device-width" name="viewport">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+        body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+  </style>
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <script src="js/vendor/respond.min.js"></script>
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+  <div id="wrapper">
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+
+    <div id="button_box">
+    	<span>Select your streams!</span>
+      <button class="player1-btn btn btn-success" type="button">Merdenom</button> 
+      <button class="player2-btn btn btn-success" type="button">Bedlam</button> 
+      <button class="player3-btn btn btn-success btn-danger" type="button">Whit</button> 
+      <button class="player4-btn btn btn-success btn-danger" type="button">uberHasu</button>
+    </div>
+    
+    <div id="viewers"><p>There are currently <span id="viewer_count">0</span> people watching the streams</p></div>
+    
+		<div class="streamWrapper clear">
+	    <div class="stream" id="player1">
+	      <object data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=deirvonsatan" height="552" id="live_embed_player_flash" type="application/x-shockwave-flash" width="895">
+	        <param name="allowFullScreen" value="true">
+	        <param name="allowScriptAccess" value="always">
+	        <param name="allowNetworking" value="all">
+	        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+	        <param name="flashvars" value="hostname=www.twitch.tv&amp;channel=deirvonsatan&amp;auto_play=true&amp;start_volume=25">
+	      </object>
+	    </div>
+	
+	    <div class="stream" id="player2">
+	      <object data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=bedlamp" height="552" id="live_embed_player_flash" type="application/x-shockwave-flash" width="895">
+	        <param name="allowFullScreen" value="true">
+	        <param name="allowScriptAccess" value="always">
+	        <param name="allowNetworking" value="all">
+	        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+	        <param name="flashvars" value="hostname=www.twitch.tv&amp;channel=bedlamp&amp;auto_play=true&amp;start_volume=25">
+	      </object>
+	    </div>
+	
+	    <div class="stream hidden" id="player3">
+	      <object data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=whittiry" height="552" id="live_embed_player_flash" type="application/x-shockwave-flash" width="895">
+	        <param name="allowFullScreen" value="true">
+	        <param name="allowScriptAccess" value="always">
+	        <param name="allowNetworking" value="all">
+	        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+	        <param name="flashvars" value="hostname=www.twitch.tv&amp;channel=whittiry&amp;auto_play=true&amp;start_volume=25">
+	      </object>
+	    </div>
+	
+	    <div class="stream hidden" id="player4">
+	      <object data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=uberhasu" height="552" id="live_embed_player_flash" type="application/x-shockwave-flash" width="895">
+	        <param name="allowFullScreen" value="true">
+	        <param name="allowScriptAccess" value="always">
+	        <param name="allowNetworking" value="all">
+	        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+	        <param name="flashvars" value="hostname=www.twitch.tv&amp;channel=uberhasu&amp;auto_play=true&amp;start_volume=25">
+	      </object>
+	    </div>
+		</div>
+
+    <div id="player_chat">
+      <iframe frameborder="0" height="445" id="chat_embed" name="chat_embed" scrolling="no" src="http://twitch.tv/chat/embed?channel=deirvonsatan&amp;popout_chat=true" width="100%"></iframe>
+    </div>
+
+    <div class="accordion" id="faqs">
+      <!-- Each item should be enclosed inside the class "accordion-group". Note down the below markup. -->
+      
+      <p>FAQs</p>
+
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#1"><!-- Title. Don't forget the <i> tag. -->
+
+          <h5><i class="glyphicon glyphicon-plus-sign"></i>Whit Goblin Run</h5></a>
+        </div>
+
+        <div class="accordion-body collapse" id="1" style="height: 0px;">
+          <div class="accordion-inner">
+            <!-- Para -->
+
+            <p>Whit will run the PvP arena while you and one other pick up items he leaks as you try and defeat him. When you defeat this vile creature you will be rewarded with only the rarest of loot for you to Unid. Done upon Donation when the creature is present and also for random viewer giveaways. This is new and great if you don't know what it is feel free to ask. And check out the vid clip of the first and original Whit Goblin Run.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#2"><!-- Title. Don't forget the <i> tag. -->
+
+          <h5><i class="glyphicon glyphicon-plus-sign"></i>Donations (not required)</h5></a>
+        </div>
+
+        <div class="accordion-body collapse" id="2" style="height: 0px;">
+          <div class="accordion-inner">
+            <!-- Para -->
+
+            <p>Donations accepted not required. All donations go directly into improvements to the stream and our community. Minimum Donation is 5$ any time a viewer donates, we intern donate the next run to them. They will receive everything that is picked up by the group from the next run. Thanks guys!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#3"><!-- Title. Don't forget the <i> tag. -->
+
+          <h5><i class="glyphicon glyphicon-plus-sign"></i>Find a Group</h5></a>
+        </div>
+
+        <div class="accordion-body collapse" id="3" style="height: 0px;">
+          <div class="accordion-inner">
+            <!-- Para -->
+
+            <p>Hey guys! <a href="https://docs.google.com/spreadsheet/ccc?key=0AgHvwR974yKHdEJUakhRelF2VHpkZnY2QkhsSl9fSUE#gid=4" target="_blank">Here is a spreadsheet</a> Bedlam through together. Fill this out with region, MP, and time that you play. Were hoping that we can provide a space to find quality players quickly and grow our community. Thanks! If you have comments to improve feel free to message me.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#4"><!-- Title. Don't forget the <i> tag. -->
+
+          <h5><i class="glyphicon glyphicon-plus-sign"></i>Raid Call Y'all!</h5></a>
+        </div>
+
+        <div class="accordion-body collapse" id="4" style="height: 0px;">
+          <div class="accordion-inner">
+            <!-- Para -->
+
+            <p>We have a dedicated Raid Call Channel used to talk in channel and to find groups with our viewers. <a href="http://www.raidcall.com/go.php?sid=7073059&cid=2" target="_blank">Download Raidcall Here!</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#5"><!-- Title. Don't forget the <i> tag. -->
+
+          <h5><i class="glyphicon glyphicon-plus-sign"></i>Monk Guide (HC)</h5></a>
+        </div>
+
+        <div class="accordion-body collapse" id="5" style="height: 0px;">
+          <div class="accordion-inner">
+            <!-- Para -->
+
+            <p><a href="http://www.reddit.com/r/Diablo3Monks/wiki/hc" target="_blank">Here is an excellent guide</a> written by one of our Mod's Bedlam. This is a thorough guide on leveling, were and how to begin with the monk in inferno, and also a comprehensive gearing guide. Enjoy and thanks to Bedlam for an amazing guide.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#6"><!-- Title. Don't forget the <i> tag. -->
+
+          <h5><i class="glyphicon glyphicon-plus-sign"></i>My Music Playlist</h5></a>
+        </div>
+
+        <div class="accordion-body collapse" id="6" style="height: 0px;">
+          <div class="accordion-inner">
+            <!-- Para -->
+
+            <p><a href="http://grooveshark.com/playlist/D3+Stream+Mix/89946376" target="_balnk">Here is the Playlist</a> that I built on Grooveshark.com. It's always growing so make sure you check it out :)</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#7"><!-- Title. Don't forget the <i> tag. -->
+
+          <h5><i class="glyphicon glyphicon-plus-sign"></i>Profile and Stats</h5></a>
+        </div>
+
+        <div class="accordion-body collapse" id="7" style="height: 0px;">
+          <div class="accordion-inner">
+            <!-- Para -->
+
+            <ul>
+            	<li><a href="http://www.diabloprogress.com/player/merdenom-1722" target="_blank">Diablo Progress</a></li>
+            	<li>D3up</li>
+            		<ul>
+            			<li><a href="http://d3up.com/b/1108774/physhcrick" target="_blank">Physcrick (Monk)</a></li>
+            			<li><a href="http://d3up.com/b/1108750/phhheeeewwww" target="_blank">Phhheeeewwww (Monk)</a></li>
+            			<li><a href="http://d3up.com/b/1105366/hildee" target="_blank">Hildee (Witch Doctor)</a></li>
+            		</ul>
+            	<li><a href="http://us.battle.net/d3/en/profile/Merdenom-1722/" target="_blank">Diablo Profile</li>
+            </ul>
+          
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-group">
+        <div class="accordion-heading">
+          <a class="accordion-toggle collapsed" data-parent="#accordion" data-toggle="collapse" href="#8"><!-- Title. Don't forget the <i> tag. -->
+
+          <h5><i class="glyphicon glyphicon-plus-sign"></i>My Music Playlist</h5></a>
+        </div>
+
+        <div class="accordion-body collapse" id="8" style="height: 0px;">
+          <div class="accordion-inner">
+            <!-- Para -->
+
+            <p><a href="http://grooveshark.com/playlist/D3+Stream+Mix/89946376" target="_balnk">Here is the Playlist</a> that I built on Grooveshark.com. It's always growing so make sure you check it out :)</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <hr>
+
+    <footer>
+      <p>© supermuttmedia 2013</p>
+    </footer>
+  </div><!-- /container -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script> window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script> 
+  <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

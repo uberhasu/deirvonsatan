@@ -1,0 +1,232 @@
+.clear:before, .clear:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+	
+.clear:after {
+	clear: both;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+.hidden {
+	display: none;
+}
+*/
+
+body {
+	/* background-image: url('../img/pw_maze_black.png'); */
+}
+
+#wrapper {
+	width: 1800px;
+	margin: 0 auto;
+}
+
+#button_box {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#button_box button {
+	margin: 0 15px;
+}
+
+#player1, #player2, #player3, #player4 {
+	float: left;
+}
+
+.stream {
+	margin: 0 2.5px;
+}
+
+#player_chat {
+	float: left;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.accordion {
+  margin-bottom: 20px;
+}
+
+.accordion-group {
+  margin-bottom: 2px;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  background-color: white;
+}
+
+.accordion-heading {
+  border-bottom: 0;
+}
+
+.accordion-heading .accordion-toggle {
+  display: block;
+  padding: 8px 15px;
+}
+
+.accordion-heading .glyphicon {
+	margin-right: 10px;
+}
+
+.accordion-toggle {
+  cursor: pointer;
+}
+
+.accordion-inner {
+  padding: 9px 15px;
+  border-top: 1px solid #e5e5e5;
+}
+
+#faqs {
+	float: left;
+	width: 900px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1800px) {
+  #wrapper {
+	  width: 1600px;
+  }
+  
+  #faqs {
+	  margin-top: 30px;
+  }
+  
+  .stream object {
+	  width: 795px;
+	  height: 490px;
+  }
+
+	#player_chat {
+		width: 800px;
+	}
+
+	#faqs {
+		width: 800px;
+	}
+}
+
+
+@media (max-width: 1600px) {
+  #wrapper {
+	  width: 1400px;
+  }
+  
+  .stream object {
+	  width: 695px;
+	  height: 428px;
+  }
+
+	#player_chat {
+		width: 700px;
+	}
+
+	#faqs {
+		width: 700px;
+	}
+}
+
+@media (max-width: 1400px) {
+  #wrapper {
+	  width: 1200px;
+  }
+  
+  .stream object {
+	  width: 595px;
+	  height: 367px;
+  }
+
+	#player_chat {
+		width: 600px;
+	}
+
+	#faqs {
+		width: 600px;
+	}
+
+}
+
+@media (max-width: 1200px) {
+  #wrapper {
+	  width: 1000px;
+  }
+  
+  .stream object {
+	  width: 495px;
+	  height: 305px;
+  }
+
+	#player_chat {
+		width: 500px;
+	}
+
+	#faqs {
+		width: 500px;
+	}
+}
+
+@media (max-width: 1000px) {
+  #wrapper {
+	  width: 800px;
+  }
+  
+  .stream object {
+	  width: 395px;
+	  height: 244px;
+  }
+
+	#player_chat {
+		width: 400px;
+	}
+
+	#faqs {
+		width: 400px;
+	}
+}
+
+@media (max-width: 800px) {
+  #wrapper {
+	  width: 400px;
+  }
+  
+  #faqs {
+	  margin-top: 30px;
+  }
+  
+  .stream object {
+	  width: 395px;
+	  height: 244px;
+  }
+  
+  #button_box {
+	  width: 400px;
+  }
+  
+  #button_box button {
+	  margin: 10px 0;
+	  width: 25%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
