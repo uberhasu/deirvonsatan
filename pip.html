@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+  <title>Deirvonsatan Multi-Stream</title>
+  <meta content="" name="description">
+  <meta content="width=device-width" name="viewport">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+        body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+  </style>
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- <link href="css/main.css" rel="stylesheet"> -->
+  <link href="css/pip.css" rel="stylesheet">
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+  <div id="wrapper">
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    
+		<div class="streamWrapper clear">
+	    <div class="stream" id="player1">
+	      <object data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=deirvonsatan" height="552" id="live_embed_player_flash" type="application/x-shockwave-flash" width="895">
+	        <param name="allowFullScreen" value="true">
+	        <param name="allowScriptAccess" value="always">
+	        <param name="allowNetworking" value="all">
+	        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+	        <param name="flashvars" value="hostname=www.twitch.tv&amp;channel=deirvonsatan&amp;auto_play=true&amp;start_volume=25">
+	      </object>
+	    </div>
+	
+	    <div class="streamPIP" id="player2">
+	      <object data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=bedlamp" height="276" id="live_embed_player_flash" type="application/x-shockwave-flash" width="447">
+	        <param name="allowFullScreen" value="false">
+	        <param name="allowScriptAccess" value="always">
+	        <param name="allowNetworking" value="all">
+	        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+	        <param name="flashvars" value="hostname=www.twitch.tv&amp;channel=bedlamp&amp;auto_play=true&amp;start_volume=0">
+	      </object>
+	    </div>
+
+    <!--
+<div id="player_chat">
+      <iframe frameborder="0" height="445" id="chat_embed" name="chat_embed" scrolling="no" src="http://twitch.tv/chat/embed?channel=deirvonsatan&amp;popout_chat=true" width="100%"></iframe>
+    </div>
+-->
+
+			<!--
+<div id="player_chat">
+				<iframe frameborder="0" height="600" id="chat_embed" name="chat_embed" scrolling="no" src="http://twitch.tv/chat/embed?channel=deirvonsatan&amp;popout_chat=true" width="635"></iframe>
+			</div>
+-->
+      
+    </div>
+    
+    <div id="viewers"><p>There are currently <span id="viewer_count">0</span> people watching the streams</p></div>
+    
+    <div id="button_box">
+    	<span>Select your streams!</span>
+      <button class="player1-btn btn btn-success" type="button">Merdenom</button> 
+      <button class="player2-btn btn btn-success" type="button">Bedlam</button>
+    </div>
+    
+    <hr>
+
+    <footer>
+      <p>© supermuttmedia 2013</p>
+    </footer>
+  </div><!-- /container -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script> window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/respond.min.js"></script>
+  <script src="js/vendor/jquery.fitvids.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/pip.js"></script>  
+  <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

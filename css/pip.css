@@ -1,0 +1,19 @@
+body {
+	margin : 0;
+	padding: 0;
+}
+
+.stream {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	max-height: 100%;
+}
+
+.streamPIP {
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	width: 25%;
+	max-height: 100%;
+}
